@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <a href="#">
+        <h2>TMDB .<span>mov</span></h2>
+      </a>
+
+      <nav class="navMenu">
+        <ul>
+          <li>
+            <a href="#"> Home </a>
+          </li>
+          <li>
+            <a href="#"> About </a>
+          </li>
+          <li>
+            <a href="#"> Latest </a>
+          </li>
+          <li>
+            <a href="#"> Popular </a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul>
+        <li>
+          <i class="bx bx-cog" id="settingToggle"></i>
+        </li>
+        <li id="toggleBtn">
+          <i class="bx bx-sun" id="toggleIcon"></i>
+        </li>
+        <li>
+          <i class="bx bx-menu" id="menuToggle"></i>
+        </li>
+      </ul>
+    </header>
+
+    <div class="settingBox">
+      <img src="./img/1.jpg" alt="" class="" />
+      <img src="./img/2.jpg" alt="" class="" />
+      <img src="./img/3.jpg" alt="" class="" />
+      <img src="./img/4.jpg" alt="" class="" />
+      <img src="./img/5.jpg" alt="" class="" />
+      <img src="./img/6.jpg" alt="" class="" />
+    </div>
+
+    <!-- Image Landing Start -->
+    <main>
+      <section id="landing">
+        <img src="./img/1.jpg" alt="" class="landingImage" />
+        <div class="hoverBox"></div>
+
+        <div class="search">
+          <h1>Search Movie Here</h1>
+          <input
+            type="text"
+            placeholder="Search By Movie Name"
+            name=""
+            id="search"
+          />
+        </div>
+      </section>
+
+      <section id="popular">
+        <h1>Popular Movie</h1>
+        <div class="movie-container">
+          
+
+          
+
+     
+      </section>
+    </main>
+
+    <div class="scrollTop">
+      <i class="bx bx-chevrons-up"></i>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
